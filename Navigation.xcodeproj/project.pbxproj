@@ -12,6 +12,7 @@
 		3957A1FC2B53FC5F00F2733D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3957A1FB2B53FC5F00F2733D /* Assets.xcassets */; };
 		3957A1FF2B53FC5F00F2733D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3957A1FE2B53FC5F00F2733D /* Preview Assets.xcassets */; };
 		3957A2062B53FFDA00F2733D /* Practice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957A2052B53FFDA00F2733D /* Practice1.swift */; };
+		3957A2082B54041100F2733D /* Practice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957A2072B54041100F2733D /* Practice2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3957A1FB2B53FC5F00F2733D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3957A1FE2B53FC5F00F2733D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3957A2052B53FFDA00F2733D /* Practice1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice1.swift; sourceTree = "<group>"; };
+		3957A2072B54041100F2733D /* Practice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				3957A1F72B53FC5D00F2733D /* NavigationApp.swift */,
-				3957A2052B53FFDA00F2733D /* Practice1.swift */,
 				3957A1F92B53FC5D00F2733D /* ContentView.swift */,
+				3957A2052B53FFDA00F2733D /* Practice1.swift */,
+				3957A2072B54041100F2733D /* Practice2.swift */,
 				3957A1FB2B53FC5F00F2733D /* Assets.xcassets */,
 				3957A1FD2B53FC5F00F2733D /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				3957A1FA2B53FC5D00F2733D /* ContentView.swift in Sources */,
 				3957A1F82B53FC5D00F2733D /* NavigationApp.swift in Sources */,
 				3957A2062B53FFDA00F2733D /* Practice1.swift in Sources */,
+				3957A2082B54041100F2733D /* Practice2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
