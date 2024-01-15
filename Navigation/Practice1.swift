@@ -14,14 +14,6 @@ struct Practice1: View {
     var body: some View {
         NavigationStack(path: $path) {
                     VStack {
-                        Button("Show 32") {
-                            path.append(32)
-                        }
-
-                        Button("Show 64") {
-                            path.append(64)
-                        }
-                        
                         
                         List {
                                ForEach(0..<5) { i in
@@ -38,8 +30,21 @@ struct Practice1: View {
                         .navigationDestination(for: String.self) { selection in
                             Text("You selected the string \(selection)")
                         }
+                        
+                        Button("Show 32") {
+                            path.append(32)
+                        }
+
+                        Button("Show 64") {
+                            path.append(64)
+                        }
                     }
+                    .navigationTitle("Title")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbarBackground(.pink)
+                    .toolbarColorScheme(.dark, for: .navigationBar)
                 }
+        
     }
 }
 
