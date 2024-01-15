@@ -43,6 +43,21 @@ struct Practice1: View {
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbarBackground(.pink)
                     .toolbarColorScheme(.dark, for: .navigationBar)
+                    .toolbar {
+                        ToolbarItemGroup(placement: .confirmationAction) {
+                            Button("Save") {
+                                //do something
+                            }
+                            Button("Submit") {
+                                //do something
+                            }
+                        }
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Back") {
+                                //do something
+                            }
+                        }
+                    }
                 }
         
     }
