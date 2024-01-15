@@ -11,6 +11,8 @@ struct Practice1: View {
     
     @State private var path = NavigationPath()
     
+    @State private var title = "SwiftUI"
+    
     var body: some View {
         NavigationStack(path: $path) {
                     VStack {
@@ -39,7 +41,7 @@ struct Practice1: View {
                             path.append(64)
                         }
                     }
-                    .navigationTitle("Title")
+                    .navigationTitle($title)
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbarBackground(.pink)
                     .toolbarColorScheme(.dark, for: .navigationBar)
